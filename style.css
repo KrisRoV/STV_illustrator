@@ -1,0 +1,207 @@
+
+/* Текст */
+@font-face {
+    font-family: "Philosopher-Regular"; 
+    src:  url("/Illustrator/fonts/Philosopher-Regular.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: "Philosopher-Bold"; 
+    src:  url("/Illustrator/fonts/Philosopher-Bold.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: "Roboto-Medium"; 
+    src: url("/Illustrator/fonts/Roboto-Medium.ttf") format("truetype"); 
+
+}
+@font-face {
+    font-family: "Roboto-Regular"; 
+    src: url("/Illustrator/fonts/Roboto-Regular.ttf") format("truetype"); 
+
+}
+@font-face {
+    font-family: "Roboto-Italic"; 
+    src: url("/Illustrator/fonts/Roboto-Italic.ttf") format("truetype"); 
+
+}
+@font-face {
+    font-family: "FontAwesome"; 
+    src: url("/Illustrator/fonts/FontAwesome.otf") ; 
+
+}
+
+.text-fonts-PR{
+    font-family: "Philosopher-Regular";
+}
+.text-fonts-RM{
+    font-family: "Roboto-Medium";
+}
+.text-fonts-RR{
+    font-family: "Roboto-Regular";
+}
+.text-fonts-RI{
+    font-family: "Roboto-Italic";
+}
+.text-fonts-PB {
+    font-family: "Philosopher-Bold";
+}
+.text-fonys-FA {
+    font-family: "FontAwesome";
+}
+.text-color-osnov{
+    color: #005c7d;
+}
+.text-color-dop{
+    color: #06bac5;
+}
+.text-color-dop2{
+    color: #008daa;
+}
+.text-color-white {
+    color: white;
+}
+
+p {
+    font-size: 24px;
+}
+.h1 {
+    font-size: 55px;
+    position: relative;
+    margin:0 auto;
+}
+.h2 {
+    font-size: 60px;
+}
+.about {
+    text-align-last:center;
+}
+.size-36 {
+    font-size: 36px;
+}
+.size-30 {
+    font-size: 30px;
+}
+.size-18 {
+    font-size: 18px;
+}
+/* Шапка */
+
+.header a {
+    color: #d4d0c8;
+    text-decoration: underline;
+}
+.header a:hover {
+    color: #eeeeed;
+}
+/* Соц. значки в шапке*/
+.socials{
+    width: 30px;
+}
+.white{
+    display: none;
+}
+
+a.vk:hover .gray, a.fb:hover .gray, a.inst:hover .gray, a.tw:hover .gray {
+    display: none;
+}
+a.vk:hover .white, a.fb:hover .white, a.inst:hover .white, a.tw:hover .white {
+    display: flex;
+}
+/* меню */
+.nav-link{
+    color: #06bac5;
+}
+.nav-link:hover {
+    color: #eb477b;
+}
+.simvol{
+    color: #06bac5;
+    font-size: 29px;
+    line-height: normal;
+}
+
+/* Фон */
+html, body {
+    background-color: #eeeeed;
+}
+
+.header{
+    background-color: #008daa;
+}
+.footer {
+    background-color: #005c7d;
+
+}
+.none-fon{
+    background-color: white;
+}
+
+
+
+/* Первый блок */
+    .h1-cont{
+    position: relative;
+    margin:0 auto;
+
+     }
+.design {
+
+    position: relative;
+    left: -130px;
+    top: -100px;
+
+}
+/* Кнопка */
+.btn-primary{
+    background-color: #005c7d;
+    border-radius: 40px;
+    border: #005c7d;
+}
+.btn-primary:hover {
+    background-color:#eb477b;
+    border: #eb477b;
+}
+
+/* Вопросы */
+.questions:hover {
+    color: #008daa;
+    text-decoration: underline;
+    /* cursor: pointer; */
+}
+.questions svg {
+    transform: rotate(180deg);
+    transition: 0.5s;
+    
+}
+.questions.collapsed svg {
+    transform: unset;
+}
+/* Ссылки */
+.sprosi {
+    text-decoration: underline;
+}
+.sprosi:hover {
+    color: #eb477b;
+}
+.osnov-site:hover {
+    color: #eb477b;
+}
+/* Соц. значки внизу сайта */
+.socials-bottom{
+    width: 60px;
+}
+.pink{
+    display: none;
+}
+
+a.vk-b:hover .blue, a.fb-b:hover .blue, a.inst-b:hover .blue, a.tw-b:hover .blue {
+    display: none;
+}
+a.vk-b:hover .pink, a.fb-b:hover .pink, a.inst-b:hover .pink, a.tw-b:hover .pink {
+    display: flex;
+}
+
+/* текст в футоре */
+
+.politica {
+    text-decoration: underline;
+}
